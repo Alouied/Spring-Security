@@ -7,9 +7,7 @@ Secure Your API with JWT Token - Spring Boot 3.0
 - [Technologies Used](#technologies-used)  
 - [Setup and Installation](#setup-and-installation)  
 - [Endpoints](#endpoints)  
-- [Usage](#usage)  
-- [Contributing](#contributing)  
-- [License](#license)  
+  
 
 ---
 
