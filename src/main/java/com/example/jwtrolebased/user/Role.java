@@ -21,18 +21,30 @@ public enum Role {
                     ADMIN_CREATE,
                     ADMIN_DELETE,
                     ADMIN_UPDATE,
-                    MANAGER_CREATE,
-                    MANAGER_UPDATE,
-                    MANAGER_DELETE,
-                    MANAGER_READ
+                    DOCTOR_CREATE,
+                    DOCTOR_UPDATE,
+                    DOCTOR_DELETE,
+                    DOCTOR_READ,
+                    PATIENT_CREATE,
+                    PATIENT_UPDATE,
+                    PATIENT_DELETE,
+                    PATIENT_READ
             )
     ),
-    MANAGER(
+    DOCTOR(
             Set.of(
-                    MANAGER_CREATE,
-                    MANAGER_UPDATE,
-                    MANAGER_DELETE,
-                    MANAGER_READ
+                    DOCTOR_CREATE,
+                    DOCTOR_UPDATE,
+                    DOCTOR_DELETE,
+                    DOCTOR_READ
+            )
+    ),
+    PATIENT(
+            Set.of(
+                    PATIENT_CREATE,
+                    PATIENT_UPDATE,
+                    PATIENT_DELETE,
+                    PATIENT_READ
             )
     );
 

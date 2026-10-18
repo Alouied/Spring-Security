@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import static com.example.jwtrolebased.user.Role.ADMIN;
-import static com.example.jwtrolebased.user.Role.MANAGER;
+import static com.example.jwtrolebased.user.Role.DOCTOR;
 
 @SpringBootApplication
 public class JwtRoleBasedApplication {
@@ -37,7 +37,7 @@ public class JwtRoleBasedApplication {
                     .lastname("manager")
                     .email("manager@manager.com")
                     .password("manager")
-                    .role(MANAGER)
+                    .role(DOCTOR)
                     .build();
             System.out.println("manager: " + authenticationService.register(manager));
         };
